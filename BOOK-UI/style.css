@@ -1,0 +1,88 @@
+.addBookContainer{    
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100% ;   
+}
+
+
+#addBookForm{
+width: 40%;
+display: flex;
+flex-direction: column;    
+align-items: center;
+justify-content: center;
+ 
+}
+.formFieldDiv{
+   
+    display: flex;
+    flex-direction: column;  
+    line-height: 2;
+    width: 70%;
+    text-align: center;
+    margin: 0px;
+     margin-top: 2%;
+}
+
+.filedLabel{
+    text-align: start;
+    
+    display: inline-block;
+    width: 30%
+}
+.filedInput{
+   width: 95% ;
+    border-radius: 5px;
+    
+}
+.filedInputButton{
+   width: 30% ; 
+    margin-top: 2%;
+}
+
+
+.separator{
+    margin-top: 1%;
+    width: 40%;
+    border: 0.9px solid lightgray;
+}
+
+#bookListTable{
+    margin-top: 1%;
+    width: 40%
+}
+
+
+tr{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+th,td{
+    flex: 2;
+    text-align: center;
+
+}
+
+.delete{
+   flex: 1; 
+}
+
+.error{
+    height: 20%;
+    width: 30%;
+    text-align: start;
+    background-color: crimson;
+}
+
+.success{
+    height: 20%;
+    width: 30%;
+    text-align: start;
+    background-color: greenyellow;
+}
