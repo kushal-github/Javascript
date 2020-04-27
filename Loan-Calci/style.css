@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px
+}
+
+.mainContainer{
+	background-color: dimgray;
+	height: 100vh;
+	position: relative;
+	overflow-y: hidden;
+
+
+
+}
+
+
+#calci-form{
+padding: 2%;
+position: relative;
+background-color: white;
+width: 30%;
+left: 35%;
+top:5%;
+
+}
+.controlFields{
+display: flex;
+flex-direction: column;
+
+}
+
+header{
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+font-family: sans-serif;
+}
+.submitBtn{
+	display: block;
+	width: 100%;
+	position: relative;
+	margin-top: 5%;
+
+}
+
+.resultPanel,.loaderPanel{
+	display: none;
+	position: relative;
+	min-height: 200px;
+	top: 20px;
+	background-color: white;
+}
+
+.gifLoader{
+	position: relative;
+	top: 60px;
+}
+
+.calculatedResult{
+display: grid;
+position: relative;
+top: 10px;
+grid-template-rows: repeat(3,1fr);
+grid-template-columns: 35% 1fr;
+grid-gap: 3px;
+text-align: center;
+
+}
+
+.monthlyPay,.monthlyPayResult,.totalPay,.totalPayResult,.totalInterest,.totalInterestResult{
+	background-color: lightgrey;
+
+}
+/*.monthlyPayResult{
+background-color: dodgerblue
+}
+.totalPay{
+background-color: deeppink
+}
+.totalPayResult{
+background-color: darksalmon
+}
+.totalInterest{
+background-color: aquamarine
+
+}
+.totalInterestResult{
+	background-color: darkseagreen
+}*/

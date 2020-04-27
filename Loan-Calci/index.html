@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Loan Calci</title>
+
+
+</head>
+
+<body>
+	<div class="mainContainer">
+		<div id="calci-form" class="card">
+			<header>Loan Calculator</header>
+			<div class="controlFields">
+				<div><input class="loanAmount" type="text" placeholder="Loan Amount" /></div>
+				<div><input class="interest" type="text" placeholder="Interest" /></div>
+				<div><input class="repay" type="text" placeholder="Years to repay" /></div>
+				<input type="button" class="waves-effect waves-light btn submitBtn" value="Submit" />
+			</div>
+
+			<div class="loaderPanel">
+				<div class="gifLoader">calculating.....
+					<div class="progress ">
+						<div class="indeterminate"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="resultPanel">
+				<h6>Result</h6>
+				<div class="calculatedResult card">
+					<div class="monthlyPay">Monthly Payment</div>
+					<div class="monthlyPayResult"></div>
+					<div class="totalPay">Total Payment</div>
+					<div class="totalPayResult"></div>
+					<div class="totalInterest">Total Interest</div>
+					<div class="totalInterestResult"></div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</body>
+<script src="appES6.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</html></html>

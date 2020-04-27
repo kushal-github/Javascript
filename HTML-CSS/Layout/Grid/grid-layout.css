@@ -1,0 +1,48 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	background-color: white;
+	color: white;
+	display: grid;
+	height: 100vh;
+	grid-template-rows: 10vh 1fr 10vh;
+	grid-template-columns: 200px auto;
+	grid-gap: 10px;
+}
+
+
+.header {
+	text-align: center;
+	background-color: blue;
+	grid-column: 1/-1;
+}
+
+.main {
+	background-color: aquamarine;
+}
+
+.footer {
+	background-color: blue;
+	grid-column: 1/-1;
+}
+
+.sideNavBar {
+	background-color: cornflowerblue;
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+
+.main,
+.footer,
+.header,
+.sideNavBar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	border: 1px solid black;
+
+}
